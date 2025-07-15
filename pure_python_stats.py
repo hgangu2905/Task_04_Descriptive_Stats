@@ -8,11 +8,6 @@ import time
 # Path to your dataset (change if needed)
 DATA_PATH = "data/US_Accidents_March23.csv"
 
-
-# Columns to analyze
-NUMERIC_COLUMNS = ["Severity", "Temperature(F)", "Humidity(%)", "Visibility(mi)"]
-CATEGORICAL_COLUMNS = ["State", "City", "Weather_Condition"]
-
 # Initial EDA to understand the structure
 print("===== Initial Dataset Exploration =====")
 with open(DATA_PATH, mode='r', encoding='utf-8') as file:
@@ -26,6 +21,10 @@ with open(DATA_PATH, mode='r', encoding='utf-8') as file:
     sample_row = next(reader)
     for h, v in zip(headers[:10], sample_row[:10]):
         print(f"  {h}: {v}")
+
+# Columns to analyze
+NUMERIC_COLUMNS = ["Severity", "Temperature(F)", "Humidity(%)", "Visibility(mi)"]
+CATEGORICAL_COLUMNS = ["State", "City", "Weather_Condition"]
 
 # Storage for column-wise data
 numeric_data = defaultdict(list)
