@@ -34,7 +34,7 @@ The dataset used represents real-world accident data from the **US Accidents (20
 3. Place the file as: `data/US_Accidents_March23.csv`
 4. Run any script via Python:
 
-```
+
 python pure_python_stats.py
 python pandas_stats.py
 python polars_stats.py
