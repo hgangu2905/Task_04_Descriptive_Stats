@@ -1,0 +1,24 @@
+# Ignore all dataset files
+datasets/
+*.csv
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+.env/
+.envrc/
+
+# Ignore log or temporary files
+*.log
+*.tmp
+
+# MacOS system files
+.DS_Store
