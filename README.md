@@ -14,7 +14,7 @@ The dataset used represents real-world accident data from the **US Accidents (20
 
 ## Repository Structure
 
-
+```
 .
 ├── .gitignore
 ├── pure_python_stats.py
@@ -23,6 +23,7 @@ The dataset used represents real-world accident data from the **US Accidents (20
 ├── README.md
 └── data/
     └── US_Accidents_March23.csv  # ← Not committed
+```
 
 
 ---
