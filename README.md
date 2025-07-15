@@ -8,11 +8,11 @@ This project focuses on descriptive statistics using three different approaches 
 
 The dataset used represents real-world accident data from the **US Accidents (2016–2023)** dataset available on [Kaggle](https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents).
 
-> ⚠️ **Note**: The dataset file is not included in this repository. Please download it manually from Kaggle and place it in the `data/` directory.
+> **Note**: The dataset file is not included in this repository. Please download it manually from Kaggle and place it in the `data/` directory.
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 .
@@ -27,7 +27,7 @@ The dataset used represents real-world accident data from the **US Accidents (20
 
 ---
 
-## 📌 How to Run
+## How to Run
 
 1. Clone the repository
 2. Download the dataset from [Kaggle - US Accidents](https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents)
@@ -41,7 +41,7 @@ python polars_stats.py
 
 ---
 
-## 🧪 Summary of Work
+## Summary of Work
 
 Each script performs:
 
@@ -54,7 +54,7 @@ Each script performs:
 
 ---
 
-## ⚙️ Requirements
+##  Requirements
 
 You will need:
 
@@ -65,7 +65,7 @@ You will need:
 
 ---
 
-## 🧠 Key Insights
+## Key Insights
 
 > Example (you can customize this based on your findings):
 
@@ -76,7 +76,7 @@ You will need:
 
 ---
 
-## 🕒 Execution Times (Approximate)
+## Execution Times (Approximate)
 
 | Script              | Runtime |
 |---------------------|---------|
@@ -86,7 +86,7 @@ You will need:
 
 ---
 
-## ✅ Dataset Source
+## Dataset Source
 
 **US Accidents (March 2023)**  
 🔗 https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents
